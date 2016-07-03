@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="interactionsPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<shared-cache-mode>ALL</shared-cache-mode>
+		<class>com.dentistry.model.Topic</class>
+		<class>com.dentistry.model.UserDetails</class>
+	</persistence-unit>
+</persistence>

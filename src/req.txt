@@ -1,0 +1,1 @@
+http://localhost:8080/Dentistry/oauth/token?grant_type=password&client_id=dentistry&client_secret=restOndent&username=dentistry&password=abcd
